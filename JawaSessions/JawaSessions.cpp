@@ -9,6 +9,7 @@ int main()
 	int y = 35;
 	float z = 5.9;
 	cout << z * z * (x / z) - 1.0;
+	cout << "hello jawa";
 }
 /*
 Basics Arthmatic Operators
