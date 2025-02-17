@@ -5,11 +5,13 @@
 using namespace std;
 int main()
 {
-	int x = 12;
-	int y = 35;
-	float z = 5.9;
-	cout << z * z * (x / z) - 1.0;
-	cout << "hello jawa";
+	int x = 5;
+	int y = 3;
+	x = y + x; 
+	y = x - y; 
+	x = x - y;
+	cout << x << endl;
+	cout << y << endl;
 }
 /*
 Basics Arthmatic Operators
