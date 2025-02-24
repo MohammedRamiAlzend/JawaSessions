@@ -2,17 +2,52 @@
 using namespace std;
 int main()
 {
-	//string firstName, lastName;
-	//cout << "Enter your first name:";
-	//cin >> firstName;
-	//cout << "Enter your last name:";
-	//cin >> lastName;
-	//cout << "Your Full Name:" << firstName + "\t" +	lastName << endl;
-	int firstNumber;
-	int secondNumber;
-	cout << "Enter first number:";
-	cin >> firstNumber;
-	cout << "Enter second number:";
-	cin >> secondNumber;
-	cout << "result  = " <<  firstNumber +secondNumber << endl;
+	/*int value;
+	cout << "Enter a value to indicate if it positive or not" << endl;
+	cin >> value;
+	if (value > 0)
+	{
+		cout << "positive";
+	}
+	if (value < 0)
+	{
+		cout << "negative";
+	}
+	if (value == 0)
+	{
+		cout << "Zero";
+	}*/
+
+
+	cout << "Enter points:" << endl;
+	int point;
+	cin >> point;
+	if (point >= 50)
+	{
+		cout << "pass";
+	}
+	if (point < 50)
+	{
+		cout << "fail";
+	}
+	
+
+
 }
+/*
+* if statement
+* syntax:
+* if(condition)
+* {
+*	//code executed if condition is true	
+* }
+* ****************************** 
+* 
+* boolean operators :
+*	< less than
+*	> greater than
+*	== equal
+*	! = not equal
+*	<= less than or equal 
+*	>= greater than or equal 
+*/
