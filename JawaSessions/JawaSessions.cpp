@@ -7,7 +7,7 @@ int main()
 {
 	double  firstNumber = 11;
 	double secondeNumber = 21;
-
+	cin >> firstNumber >> secondeNumber;
 	cout << firstNumber + secondeNumber << endl;
 	cout << firstNumber - secondeNumber << endl;
 	cout << firstNumber * secondeNumber << endl;
