@@ -19,18 +19,55 @@ int main()
 	}*/
 
 
-	cout << "Enter points:" << endl;
-	int point;
-	cin >> point;
-	if (point >= 50)
+	//cout << "Enter points:" << endl;
+	//int point;
+	//cin >> point;
+	//if (point >= 50)
+	//{
+	//	cout << "pass";
+	//}
+	//else
+	//{
+	//	cout << "fail";
+	//}
+
+	/*
+	* and &&
+	* t + t = t
+	* t + f = f
+	* f + t = f
+	* f + f = f
+	*
+	* or ||
+	* t + t = t
+	* t + f = t
+	* f + t = t
+	* f + f = f
+	*/
+	string dayName;
+	cout << "Enter day:" << endl;
+	cin >> dayName;//Sun
+
+	if (dayName == "sun" 
+		|| dayName == "Sun" || 
+		   dayName == "sUn" ||
+		   dayName == "SUn")
 	{
-		cout << "pass";
+		cout << "Sunday" << endl;
 	}
-	if (point < 50)
+	else if (dayName == "Mon")
 	{
-		cout << "fail";
+		cout << "Monday" << endl;
 	}
-	
+	else if (dayName == "Tue")
+	{
+		cout << "Tuesday" << endl;
+	}
+	else {
+		cout << "404 Not Found";
+	}
+
+
 
 
 }
@@ -39,15 +76,15 @@ int main()
 * syntax:
 * if(condition)
 * {
-*	//code executed if condition is true	
+*	//code executed if condition is true
 * }
-* ****************************** 
-* 
+* ******************************
+*
 * boolean operators :
 *	< less than
 *	> greater than
 *	== equal
 *	! = not equal
-*	<= less than or equal 
-*	>= greater than or equal 
+*	<= less than or equal
+*	>= greater than or equal
 */
