@@ -2,10 +2,30 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello !\n";
+    // int number = 325;
+    // int singles , tens, handrades;
+    // singles = number % 10;
+    // tens = number % 100 / 10;
+    // handrades = number / 100;
+    // int result= singles *100 + tens * 10 + handrades;
+    // cout<<result;
+
+    int singles , tens , hanredes;
+    int number = 876;
+    singles = number % 10;//8
+    number = number / 10;//87
+    tens = number % 10;//7
+    number = number / 10;//8
+    hanredes = number % 10;//8
+    number = number / 10;//0
+    int result = singles * 100 + tens * 10 + hanredes;
+    cout << result << endl;
+
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
