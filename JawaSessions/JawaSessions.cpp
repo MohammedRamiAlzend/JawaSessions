@@ -5,29 +5,17 @@ using namespace std;
  */
 int main()
 {
-    int number= 113;
-    int start= 2;
-    bool isPrime = true;
-    int end= number/2;
-    while (start <= end)
+    //[1,10]=>1,3,5,7,9 => 5
+    //[11,17] => 11,13,15,17 => 4
+    int start=11, end=17;
+    int oddCounter=0;
+    while (start<=end)
     {
-        if(number % start == 0)
+        if(start%2==1)
         {
-            isPrime = false;
+            oddCounter++;
         }
         start++;
     }
-    if(isPrime == false)
-    {
-        cout<<"not a prime number"<<endl;
-    }
-    else
-    {
-        cout<<"prime number"<<endl;
-    }
-
-
-
-    
-
+    cout<<oddCounter<<endl;
 }
