@@ -3,14 +3,26 @@ using namespace std;
 
 int main()
 {
-	double sum = 0, i = 1;
-	double avg = 0;
-	while (i <= 999)
-	{
-		sum = sum + i;
-		i++;
-	}
-	avg = sum / i;
-	cout << sum << endl;
-	cout << avg << endl;
+    int gradeNumber, gradeValue, maxNumber, lowestNumber,i = 1;
+    cout << "enter number of grades:" << endl;
+    cin >> gradeNumber;
+    while (i <= gradeNumber)
+    {
+        cout << "enter gradeValue:" << endl;
+        cin >> gradeValue;
+        if (i == 1)
+        {
+            maxNumber = lowestNumber = gradeValue;
+        }
+        if (gradeValue > maxNumber)
+        {
+            maxNumber = gradeValue;
+        }
+        if (gradeValue < lowestNumber)
+        {
+            lowestNumber = gradeValue;
+        }
+        i++;
+    }
+    cout << "maxNumber:" << maxNumber << endl;
 }
