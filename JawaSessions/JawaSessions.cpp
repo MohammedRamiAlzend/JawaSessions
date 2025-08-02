@@ -3,6 +3,28 @@ using namespace std;
 
 int main()
 {
-	srand(time(0));
-	int guss = rand() % 100 + 1;
+	//for , while , do while 
+	/*
+		for(var x = Start-Or-End-value; condition; increment-decrement)
+		{
+			
+		}
+		for(var x = Start-Or-End-value; condition;)
+		{
+
+		}
+		for(;condition;)
+		{
+
+		}
+	*/
+	/*
+		do
+		{
+					
+		}while(condition);
+	*/
+
+
+
 }
