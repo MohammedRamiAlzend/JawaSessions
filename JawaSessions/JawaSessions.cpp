@@ -15,7 +15,7 @@ int main()
 		}
 		for(;condition;)
 		{
-
+                                                                           
 		}
 	*/
 	/*
@@ -24,7 +24,7 @@ int main()
 					
 		}while(condition);
 	*/
-
+	cout<<"test";
 
 
 }
